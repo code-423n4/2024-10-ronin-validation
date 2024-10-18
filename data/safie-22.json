@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "safie",
+  "risk": "3",
+  "title": "Front-running in `getAmountOut` function allow an attacker to observe large pending transactions on the blockchain, manipulate the pool’s reserves by making their own transactions, and sandwich the victim's trade",
+  "issueId": 22,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/22"
+}

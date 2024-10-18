@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "TECHFUND-inc",
+  "risk": "2",
+  "title": "immutable variables are not initialised, breaks functionality",
+  "issueId": 14,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/14"
+}

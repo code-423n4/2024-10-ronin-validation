@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "Tomasleocadio",
+  "risk": "2",
+  "title": "Anyone can access initialize() becoming the owner of the contract, bypassing critical functions. ",
+  "issueId": 30,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/30"
+}

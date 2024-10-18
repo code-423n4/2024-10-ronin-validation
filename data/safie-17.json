@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "safie",
+  "risk": "3",
+  "title": "Fee growth calculation errors in `KatanaV3Pool` Contract will result in liquidity providers receiving more or fewer fees than they are entitled to, leading to profit imbalances and undermining the integrity of the pool",
+  "issueId": 17,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/17"
+}

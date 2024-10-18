@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "safie",
+  "risk": "2",
+  "title": "Fixed addresses for USDC, WETH, and WBTC in `NonfungibleTokenPositionDescriptor` contract can lead to misbehavior in the contract's logic, causing failures or inaccuracies in metadata generation",
+  "issueId": 19,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/19"
+}

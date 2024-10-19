@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "emerald7017",
+  "risk": "2",
+  "title": "Liquidity providers may face difficulties when managing their positions, as the inconsistent tick state can affect their ability to add or remove liquidity correctly.",
+  "issueId": 46,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/46"
+}

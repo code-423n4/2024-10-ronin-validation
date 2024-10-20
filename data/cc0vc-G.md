@@ -10,4 +10,4 @@ if (!cache.computedLatestObservation) {
               cache.liquidityStart,
               slot0Start.observationCardinality
       );
-the code executes an external call to observations.observeSingle() within the if condition, and this call is within a loop. if cache.computedLatestObservation is false, then this external function is called every time through the loop.
+the code executes an external call to observations.observeSingle() within the if condition, and this call is within a loop. if cache.computedLatestObservation is false, then this external function is called every time through the loop.this will increase Commission expense

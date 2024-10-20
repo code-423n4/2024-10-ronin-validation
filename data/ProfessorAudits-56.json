@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "ProfessorAudits",
+  "risk": "2",
+  "title": "Lack of Access Control in `KatanaV3Factory::initialize` function  allows unauthorized configuration",
+  "issueId": 56,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/56"
+}

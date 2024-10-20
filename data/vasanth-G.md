@@ -1,19 +1,21 @@
-## Executive Summary
+# Gas Optimization in katana-v3-contracts/src/core/KatanaV3Factory.sol
 
-This audit report provides a comprehensive analysis of the optimized KatanaV3Factory contract, focusing on the specific optimizations implemented and their potential impact on gas efficiency.
+## Optimize Storage Access
 
-## Key Optimizations
+[Line 83](https://github.com/ronin-chain/katana-v3-contracts/blob/03c80179e04f40d96f06c451ea494bb18f2a58fc/src/core/KatanaV3Factory.sol#L83)
 
-Combined FeeData Struct: The feeAmountTickSpacing and feeAmountProtocol mappings were combined into a single FeeData struct to reduce storage reads.
-Cached IKatanaGovernance Address: The address of the IKatanaGovernance contract was cached in a local variable to avoid repeated lookups.
-Optimized createPool Function: The createPool function was optimized by directly accessing the feeData struct and returning early if the pool already exists.
-Early Return in createPool: The createPool function now returns early if the pool already exists, saving gas on unnecessary operations.
-Consistent Naming Conventions: Consistent naming conventions were used throughout the code for improved readability.
+Accessing storage variables is costly, so minimize the number of reads.
 
-## Impact of Optimizations
+Example Change: Instead of reading feeAmountTickSpacing[fee] multiple times, store it in a local variable.
 
-The combined effect of these optimizations is expected to result in significant gas savings for the KatanaV3Factory contract. By reducing the number of storage reads, function calls, and unnecessary computations, the contract's overall efficiency is improved.
+```solidity
+int24 tickSpacing = feeAmountTickSpacing[fee];
+require(tickSpacing != 0, "KatanaV3Factory: INVALID_FEE");
+```
 
-## Conclusion
 
-The optimized KatanaV3Factory contract incorporates several improvements that can lead to substantial gas savings. By combining data structures, caching frequently accessed values, and optimizing function calls, the contract's performance is enhanced.
+
+
+
+
+

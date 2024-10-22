@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "aariiif",
+  "risk": "3",
+  "title": "Incorrect Liquidity Accounting During Position Burns",
+  "issueId": 81,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/81"
+}

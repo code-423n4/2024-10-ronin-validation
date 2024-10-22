@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "1337web3",
+  "risk": "2",
+  "title": "Address Collision Can Cause Stolen Funds",
+  "issueId": 78,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/78"
+}

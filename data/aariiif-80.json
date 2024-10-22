@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "aariiif",
+  "risk": "2",
+  "title": "fee growth calculation in the swap function incorrectly handles the order of operations between protocol fee deduction and fee growth updates",
+  "issueId": 80,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/80"
+}

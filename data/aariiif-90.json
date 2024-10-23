@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "aariiif",
+  "risk": "2",
+  "title": "Flash Loan State Manipulation via Reentrancy",
+  "issueId": 90,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/90"
+}

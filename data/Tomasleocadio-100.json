@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "Tomasleocadio",
+  "risk": "2",
+  "title": "OOG / unexpected reverts due to incorrect usage of staticcall.",
+  "issueId": 100,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/100"
+}

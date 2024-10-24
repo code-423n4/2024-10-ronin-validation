@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "0XRolko",
+  "risk": "2",
+  "title": "Type mismatch in the `AuthorizationLib::checkPair` function",
+  "issueId": 110,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/110"
+}

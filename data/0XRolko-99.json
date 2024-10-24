@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "0XRolko",
+  "risk": "3",
+  "title": "Possibility of underflow without revert in the `V2SwapRouter::_v2Swap` function, which can be exploited by a malicious user to steal funds.",
+  "issueId": 99,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/99"
+}

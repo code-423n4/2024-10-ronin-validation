@@ -244,4 +244,33 @@ function swap(
     emit Swap(msg.sender, recipient, amount0, amount1, state.sqrtPriceX96, state.liquidity, state.tick);
     slot0.unlocked = true;
   }
+
+```
+
+QA2. The aggretateRouter.execute function might leave some leftover ETH in the contract. Some other users can steal them by executing other commands or simply sweep it by calling unwrap(); 
+
+```javascript
+ function execute(bytes calldata commands, bytes[] calldata inputs, uint256 deadline)
+    external
+    payable
+    checkDeadline(deadline)
+  {
+    execute(commands, inputs);            // refund
+  }
+```
+
+
+Mitigation: 
+```diff
+
+ function execute(bytes calldata commands, bytes[] calldata inputs, uint256 deadline)
+    external
+    payable
+    checkDeadline(deadline)
+  {
+    execute(commands, inputs);            // refund
+
++   unwrapWETH9(msg.sender, 0);
+  }
+
 ```

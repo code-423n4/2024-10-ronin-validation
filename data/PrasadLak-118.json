@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "PrasadLak",
+  "risk": "2",
+  "title": "KatanaV3Pool uses custom fees whereas KatanaV2Library.getAmountOut uses hardcoded fees",
+  "issueId": 118,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/118"
+}

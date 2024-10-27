@@ -1,6 +1,8 @@
 QA1. KatanaV3Pool.swap() can be improved by early loop continue for the case when ```state.liquidity = 0``` for the while loop. 
 
-tickBitmap.nextInitializedTickWithinOneWord(state.tick, cache.tickSpacing, zeroForOne) will only search 256 ticks, and in many cases, as shown by the following test, step.initialized = 0, that is, we end up a a next tick that has no liquidity.
+The observation is that no swap will occur for the step when ```state.liquidity = 0```.
+
+Firt of all, ```tickBitmap.nextInitializedTickWithinOneWord(state.tick, cache.tickSpacing, zeroForOne)``` will only search 256 ticks, and in many cases, as shown by the following test, we have ```step.initialized = 0```, that is, we end up in the next tick that has no liquidity.
 
 ```javasript
   function testSwap1() public{
@@ -19,7 +21,7 @@ tickBitmap.nextInitializedTickWithinOneWord(state.tick, cache.tickSpacing, zeroF
 }
 ```
 
-For such cases, there is no real swap that will occur,  In such cases, it's efficient to skip over to the next iteration by only adjusting that ```state.tick = zeroForOne ? step.tickNext - 1 : step.tickNext;```. Much computation can be skipped since step.amountIn = 0, step.amountOut = 0, and step.feeAmount = 0 in this case. 
+When such tick is reached, there is no real swap that will occur,  In such cases, it's efficient to skip over to the next iteration by only adjusting that ```state.tick = zeroForOne ? step.tickNext - 1 : step.tickNext;``` so we can continue to search for initialized tick. Much computation can be skipped since ```step.amountIn = 0```, ```step.amountOut = 0```, and ```step.feeAmount = 0``` in this case. 
 
 
 Here is the improved code: 
@@ -244,33 +246,18 @@ function swap(
     emit Swap(msg.sender, recipient, amount0, amount1, state.sqrtPriceX96, state.liquidity, state.tick);
     slot0.unlocked = true;
   }
-
 ```
 
-QA2. The aggretateRouter.execute function might leave some leftover ETH in the contract. Some other users can steal them by executing other commands or simply sweep it by calling unwrap(); 
+QA2. NonfungiblePositionManager.collect() fails to collect all tokens in (position.tokensOwed0, position.tokensOwed1) as expected. However, the function comment says "Must collect all tokens owed".
 
-```javascript
- function execute(bytes calldata commands, bytes[] calldata inputs, uint256 deadline)
-    external
-    payable
-    checkDeadline(deadline)
-  {
-    execute(commands, inputs);            // refund
-  }
+This is because it executes the following line first and then performs an update of the position fees owed and fee growth snapshot, which gave a new (position.tokensOwed0, position.tokensOwed1).
+
+```javascipt
+ (uint128 tokensOwed0, uint128 tokensOwed1) = (position.tokensOwed0, position.tokensOwed1);
 ```
 
+Therefore, what is collected is only partial, not the whole amount of token0 and token1. 
 
-Mitigation: 
-```diff
+Mitigation: first calculate the new (position.tokensOwed0, position.tokensOwed1), then uses it to decide the amount of token0 and token1 that need to be collected. 
 
- function execute(bytes calldata commands, bytes[] calldata inputs, uint256 deadline)
-    external
-    payable
-    checkDeadline(deadline)
-  {
-    execute(commands, inputs);            // refund
 
-+   unwrapWETH9(msg.sender, 0);
-  }
-
-```

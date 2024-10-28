@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "nnamdi0482",
+  "risk": "2",
+  "title": "swap function lacks parameter for controlling slippage",
+  "issueId": 152,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/152"
+}

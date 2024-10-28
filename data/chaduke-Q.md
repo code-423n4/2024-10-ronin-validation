@@ -261,3 +261,4 @@ Therefore, what is collected is only partial, not the whole amount of token0 and
 Mitigation: first calculate the new (position.tokensOwed0, position.tokensOwed1), then uses it to decide the amount of token0 and token1 that need to be collected. 
 
 
+QA3. The NonfungilePositionManager.collect() calls KatanaV3Pool.mint with zero dealLiquidity to trigger the pool to update the position's fee calculations for the position’s current tick range. To save gas, this can be achieved by adding a new function accrue() instead to use a general mint function to achieve the same. 

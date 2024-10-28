@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "olympix-intern",
+  "risk": "3",
+  "title": "Reentrancy Vulnerability in multicall Function of Multicall.sol",
+  "issueId": 146,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/146"
+}

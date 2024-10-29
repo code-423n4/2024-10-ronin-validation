@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "albahaca",
+  "risk": "3",
+  "title": "Balance Verification in mint Function Leading to Token Minting Failures",
+  "issueId": 163,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/163"
+}

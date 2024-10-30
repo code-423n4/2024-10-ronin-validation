@@ -97,3 +97,13 @@ Impact: This does not directly affect security but may lead to usability issues,
 Mitigation:
 1. Add a receive function to allow the contract to accept direct ETH payments if required for wrapETH operations.
 2. Alternatively, clearly document the intended behavior, specifying that all ETH transfers must occur through defined functions.
+
+8. Precision Loss in Division Calculations: In the payPortion function, calculating the amount using division (balance * bips) / FEE_BIPS_BASE could lead to rounding issues, especially for small values of bips. This could leave dust amounts in the contract due to integer division truncation, affecting the accuracy of payouts. Inaccurate calculations, especially for very small bips percentages, may result in funds being retained in the contract unintentionally.
+
+PoC: Use a very small bips value in payPortion (e.g., 1), which could lead to rounding to zero. Observe that the resulting amount transferred is zero, leaving small dust balances in the contract.
+
+Impact: This is mainly a usability issue, potentially leaving small, irrecoverable balances or impacting payout accuracy.
+
+Mitigation:
+1. Add a check for small values of bips to determine if dust balances are being left and consider rounding up the amount to avoid dust.
+2. Document this limitation clearly for users, noting any minimum bips threshold for accuracy.

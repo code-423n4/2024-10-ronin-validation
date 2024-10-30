@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "3",
+  "title": "Lack of access control can lead to unauthorized changes to critical addresses.",
+  "issueId": 194,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/194"
+}

@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Initialization Deadlock in KatanaV3Pool Due to Conflicting Constructor and initializeImmutables Logic",
+  "issueId": 216,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/216"
+}

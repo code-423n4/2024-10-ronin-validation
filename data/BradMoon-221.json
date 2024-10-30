@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "BradMoon",
+  "risk": "2",
+  "title": "Zero Denominator Vulnerability in Fee Protocol Parameter Validation",
+  "issueId": 221,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/221"
+}

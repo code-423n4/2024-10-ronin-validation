@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "2",
+  "title": "Misuse of Constants.CONTRACT_BALANCE as Input can lead to undesired fund flows and contract misbehavior",
+  "issueId": 245,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/245"
+}

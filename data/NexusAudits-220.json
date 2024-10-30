@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Pool ID Overflow in cachePoolKey Can Cause Mapping Collisions and System Inconsistency",
+  "issueId": 220,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/220"
+}

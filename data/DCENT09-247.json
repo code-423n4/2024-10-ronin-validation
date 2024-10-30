@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "2",
+  "title": "Arbitrary Token Transfers without Validation  can lead to contract misbehavior or stuck funds.",
+  "issueId": 247,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/247"
+}

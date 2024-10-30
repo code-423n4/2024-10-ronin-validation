@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Suboptimal Array Allocation in Mixed Route Quoter",
+  "issueId": 262,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/262"
+}

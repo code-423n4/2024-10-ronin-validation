@@ -65,3 +65,16 @@ Impact: Can lead to unexpected behaviors or revert transactions.
 
 Mitigation Recommendation
 Always initialize structs in the constructor or through a dedicated setup function before use.
+
+6. Lack of Event Emission: The contract does not emit events for critical operations such as deposits and withdrawals. This makes it difficult to track activities on-chain.
+
+Proof of Concept
+Scenario: Users and external monitoring systems cannot reliably know when deposits or withdrawals happen without event logs.
+Impact Execution: Without events, it becomes challenging to track down issues or interactions, leading to reduced transparency.
+
+Impact
+1. Audit Difficulty: Lack of events complicates auditing and monitoring the contract's state.
+2. User Trust: Users may distrust the contract if they cannot see transaction confirmations on-chain.
+
+Mitigation Recommendations
+Emit Events: Emit events for all state-changing operations, including deposits and withdrawals.

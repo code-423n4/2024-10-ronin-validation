@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Users at Risk of Price Manipulation Due to Absence of Liquidity Thresholds and Whitelisting",
+  "issueId": 256,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/256"
+}

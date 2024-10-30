@@ -86,3 +86,14 @@ Impact: Future developers may mistakenly assign a new command type that conflict
 Mitigation Recommendations:
 1. Remove unused placeholders from the code to prevent confusion.
 2. Clearly document command type usage and management practices.
+
+8. Lack of Fallback/Receive Function: The contract lacks a receive or fallback function, which means it cannot accept direct ETH transfers, which can impact usability if users or other contracts attempt to transfer ETH directly. This could affect functions like wrapETH and unwrapWETH9, potentially making the contract incompatible with certain ETH-based applications.
+
+PoC: Send ETH directly to the Payments contract without using a function.
+The transaction fails because the contract does not have a receive function to handle direct ETH transfers.
+
+Impact: This does not directly affect security but may lead to usability issues, causing frustration or incompatibility with ETH transfers.
+
+Mitigation:
+1. Add a receive function to allow the contract to accept direct ETH payments if required for wrapETH operations.
+2. Alternatively, clearly document the intended behavior, specifying that all ETH transfers must occur through defined functions.

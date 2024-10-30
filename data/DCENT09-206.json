@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "2",
+  "title": "Gas Limit and Looping Vulnerability may cause Transactions to  fail due to gas limits.",
+  "issueId": 206,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/206"
+}

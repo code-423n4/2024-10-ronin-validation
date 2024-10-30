@@ -78,3 +78,11 @@ Impact
 
 Mitigation Recommendations
 Emit Events: Emit events for all state-changing operations, including deposits and withdrawals.
+
+7. Unused Command Placeholders: The library defines command placeholders (e.g., COMMAND_PLACEHOLDER = 0x07) for unused command types. While this doesn’t introduce a direct vulnerability, it could cause confusion or errors if the command types are not managed correctly.
+
+Impact: Future developers may mistakenly assign a new command type that conflicts with existing placeholders, leading to unintended consequences when commands are executed.
+
+Mitigation Recommendations:
+1. Remove unused placeholders from the code to prevent confusion.
+2. Clearly document command type usage and management practices.

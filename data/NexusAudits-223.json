@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Unsafe Parameter Decoding in Dispatcher Contract Leads to Potential Data Corruption",
+  "issueId": 223,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/223"
+}

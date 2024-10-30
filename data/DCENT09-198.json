@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "3",
+  "title": "Lack of access control leading to potential unauthorized actions like token transfers, swaps, or other sensitive operations.",
+  "issueId": 198,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/198"
+}

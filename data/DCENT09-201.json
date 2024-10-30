@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "2",
+  "title": " Lack of Input Validation could lead to executing unintended commands, resulting in financial losses.",
+  "issueId": 201,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/201"
+}

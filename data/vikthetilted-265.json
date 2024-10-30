@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "vikthetilted",
+  "risk": "2",
+  "title": "Malicious Pool Deployment with Create2: Address Collision",
+  "issueId": 265,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/265"
+}

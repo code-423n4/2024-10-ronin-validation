@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "CipherShieldGlobal",
+  "risk": "3",
+  "title": "ETH Transfer exploit via calldata manipulation",
+  "issueId": 248,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/248"
+}

@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "2",
+  "title": "Lack of Access Control in deposit and withdraw Functions could lead to financial Loss and DoS",
+  "issueId": 203,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/203"
+}

@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "Tonchi",
+  "risk": "3",
+  "title": "Beacon is not showed up as a proxy to block explorers or can be set any contract's address as beacon",
+  "issueId": 255,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/255"
+}

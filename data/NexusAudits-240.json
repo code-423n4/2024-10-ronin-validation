@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "tx.origin Usage in Katana V3 Swap Function Enables Unauthorized Access",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/240"
+}

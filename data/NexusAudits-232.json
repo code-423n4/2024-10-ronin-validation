@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Inefficient Tick Update Mechanism in Katana V3 Causes Excessive Gas Costs for Multi-Range Positions",
+  "issueId": 232,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/232"
+}

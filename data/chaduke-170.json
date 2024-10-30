@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "chaduke",
+  "risk": "2",
+  "title": "katanaV3SwapCallback and _swap() do not deal with the recurisve base case of empty path well, leading to non-function for v3SwapExactOutput.",
+  "issueId": 170,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/170"
+}

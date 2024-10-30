@@ -47,3 +47,21 @@ Impact: Confusion about address constants could lead to unintended behavior or m
 Mitigation Recommendations
 1. Use more descriptive constants or an enumeration to clarify the purpose of the values.
 2. Document the constants extensively to provide context.
+
+5. Potential for Uninitialized Memory: If instances of RouterParameters are not initialized correctly, they may contain default values that could lead to undefined behavior.
+
+Proof of Concept: Consider a function that uses RouterParameters without initialization:
+contract Router {
+    RouterParameters public parameters;
+
+    function execute() public {
+        // Uses parameters without initialization
+        require(parameters.permit2 != address(0), "Permit2 not set");
+    }
+}
+Calling execute() will fail if parameters is uninitialized.
+
+Impact: Can lead to unexpected behaviors or revert transactions.
+
+Mitigation Recommendation
+Always initialize structs in the constructor or through a dedicated setup function before use.

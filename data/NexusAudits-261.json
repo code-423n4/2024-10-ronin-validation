@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Array Index Misalignment in MixedRouteQuoterV1's Mixed Route Quotes",
+  "issueId": 261,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/261"
+}

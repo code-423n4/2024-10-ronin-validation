@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "3",
+  "title": "Reentrancy vulnerability that can lead to substantial financial loss ",
+  "issueId": 181,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/181"
+}

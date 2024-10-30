@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "Alchmy952",
+  "risk": "3",
+  "title": "Lock modifier can be bypassed thereby allowing reentrancy by proxy call of flash function",
+  "issueId": 214,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/214"
+}

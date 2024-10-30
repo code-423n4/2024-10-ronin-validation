@@ -26,3 +26,24 @@ Mitigation:
 
 Example:Improper assembly decoding has caused several incidents in Solidity, where minor miscalculations lead to incorrect contract behavior.
 
+3. Error Handling: The ContractLocked error provides minimal context when reverted. Effective error handling should provide clear feedback about the failure.
+
+Proof of Concept: When the contract is locked and an external user tries to call a locked function, they receive a vague error without context.
+modifier isNotLocked() {
+    if (lockedBy != NOT_LOCKED_FLAG) revert ContractLocked(); // No context given
+}
+Impact: Developers and users may struggle to debug issues due to unclear error messages, leading to wasted time and potential frustration.
+
+Mitigation Recommendations
+1. Include descriptive error messages or error codes that provide context about the lock status.
+2. Consider implementing a custom error structure that provides more context.
+
+4. Address Constant Misuse: The use of address(1) as a constant for NOT_LOCKED_FLAG can be misleading. Typically, address(0) is reserved for null checks, and using non-standard addresses can cause confusion.
+
+Proof of Concept: Developers reading the code might mistakenly think address(1) has special meaning when it does not. This could lead to misconfigurations.
+address internal constant NOT_LOCKED_FLAG = address(1);
+Impact: Confusion about address constants could lead to unintended behavior or misuse in the contract.
+
+Mitigation Recommendations
+1. Use more descriptive constants or an enumeration to clarify the purpose of the values.
+2. Document the constants extensively to provide context.

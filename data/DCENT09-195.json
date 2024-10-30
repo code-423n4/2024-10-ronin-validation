@@ -1,0 +1,8 @@
+{
+  "contest": 454,
+  "handle": "DCENT09",
+  "risk": "2",
+  "title": "No Validations on Addresses could lead to loss of funds or non-functional contract features",
+  "issueId": 195,
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/195"
+}

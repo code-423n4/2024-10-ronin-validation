@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Expired Accounts Retain Access Due to Flawed Expiry Validation in Authorization Logic",
   "issueId": 133,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/133"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/133",
+  "validatedIssueId": 52,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/52"
 }

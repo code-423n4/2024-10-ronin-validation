@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "No way for governance to properly update `feeProtocolNum` and `feeProtocolDen`",
   "issueId": 252,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/252"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/252",
+  "validatedIssueId": 7,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/7"
 }

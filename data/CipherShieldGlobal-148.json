@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Missing Fee Parameter in pairFor Function Leads to Incorrect Pair Address Calculation",
   "issueId": 148,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/148"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/148",
+  "validatedIssueId": 13,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/13"
 }

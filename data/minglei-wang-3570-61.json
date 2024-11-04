@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Authorization function of the Governance can still restrict user from migrating v2 liquidity to v3 liquidity",
   "issueId": 61,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/61"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/61",
+  "validatedIssueId": 31,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/31"
 }

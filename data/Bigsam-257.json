@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "V3factory will fail to initialize because of a wrong check",
   "issueId": 257,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/257"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/257",
+  "validatedIssueId": 38,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/38"
 }

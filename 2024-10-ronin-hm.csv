@@ -1,0 +1,3 @@
+issue,title,primary finding,validator comment,status,root cause (URL),size,robotLabel
+validation-65,V3SwapRouter.sol#checkAuthorizedV3Path cannot decode all token involved,validation-65,,Satisfactory,,222,:robot:_primary
+validation-267,Incomplete Mixed Route Gas Estimation,validation-267,"Extremely vague issue, insufficient proof and quality",Unsatisfactory,,225,:robot:_primary

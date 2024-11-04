@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "require nextId to be zero will always revert due to nextId already initialized to 1",
   "issueId": 143,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/143"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/143",
+  "validatedIssueId": 14,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/14"
 }

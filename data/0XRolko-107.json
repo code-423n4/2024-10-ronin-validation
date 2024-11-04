@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Lack of `address(0)` in the `KatanaGovernance::_setFactory` function",
   "issueId": 107,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/107"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/107",
+  "validatedIssueId": 55,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/55"
 }

@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The `KatanaV3Pool.initializeImmutables` Function is Prone to Denial of Service (DoS) Attacks",
   "issueId": 42,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/42"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/42",
+  "validatedIssueId": 73,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/73"
 }

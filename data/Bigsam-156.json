@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Katana Governance will never be able to initialize the V3factory because of a wrong check",
   "issueId": 156,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/156"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/156",
+  "validatedIssueId": 50,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/50"
 }

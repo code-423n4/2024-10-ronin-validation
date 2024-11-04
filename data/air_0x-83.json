@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "LPholders can be prevented from burning their position NFTs",
   "issueId": 83,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/83"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/83",
+  "validatedIssueId": 64,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/64"
 }

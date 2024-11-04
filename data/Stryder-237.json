@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Address Collision Attack Using CREATE2 in Katana V3 Pool Deployment",
   "issueId": 237,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/237"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/237",
+  "validatedIssueId": 42,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/42"
 }

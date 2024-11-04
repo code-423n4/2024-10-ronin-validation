@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Insufficient input validation may lead to loss of funds due to invalid or malicious input data.",
   "issueId": 183,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/183"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/183",
+  "validatedIssueId": 9,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/9"
 }

@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "ETH Dust Accumulation in `createAndInitializePoolIfNecessary`",
   "issueId": 128,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/128"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/128",
+  "validatedIssueId": 17,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/17"
 }

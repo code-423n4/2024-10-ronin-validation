@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Oracle's Transform Function Fails to Handle Zero Liquidity, Leading to Data Inaccuracy",
   "issueId": 95,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/95"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/95",
+  "validatedIssueId": 59,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/59"
 }

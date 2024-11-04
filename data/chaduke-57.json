@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Leftover ETH by the previous liquidator provider might be stolen by another liquidator provider. ",
   "issueId": 57,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/57"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/57",
+  "validatedIssueId": 69,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/69"
 }

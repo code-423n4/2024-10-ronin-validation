@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "slot0 is easy to manupilate",
   "issueId": 172,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/172"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/172",
+  "validatedIssueId": 48,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/48"
 }

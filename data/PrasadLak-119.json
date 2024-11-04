@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Liquidity providers can be restricted from burning their positions.",
   "issueId": 119,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/119"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/119",
+  "validatedIssueId": 54,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/54"
 }

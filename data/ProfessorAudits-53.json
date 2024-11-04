@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Improper Initialization Logic in KatanaV3Factory Causes Deployment Failure/Dos",
   "issueId": 53,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/53"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/53",
+  "validatedIssueId": 70,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/70"
 }

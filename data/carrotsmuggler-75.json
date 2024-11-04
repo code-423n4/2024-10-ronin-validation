@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Functions in AggregateRouter dont allow reverts",
   "issueId": 75,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/75"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/75",
+  "validatedIssueId": 30,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/30"
 }

@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`NonFungiblePositionManager::collect` Is Liable To Underflow",
   "issueId": 112,
-  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/112"
+  "issueUrl": "https://github.com/code-423n4/2024-10-ronin-validation/issues/112",
+  "validatedIssueId": 24,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-ronin-findings/issues/24"
 }
